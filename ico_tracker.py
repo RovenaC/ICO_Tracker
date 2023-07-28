@@ -7,7 +7,7 @@ class ICOTracker:
         self.icos = []
 
     def scrape_icos(self):
-        # Scrape ICO information from the website
+        # Scrape ICO information from the website:
         response = requests.get(self.website_url)
         if response.status_code == 200:
             soup = BeautifulSoup(response.content, 'html.parser')
