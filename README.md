@@ -24,7 +24,9 @@ To use this code, replace the website_url variable with the actual URL of the we
 
 Make sure you have the required libraries ``` requests``` , ``` bs4```  installed before running the code. You can install them using the following commands:
 
+```bash
 pip install requests
 pip install beautifulsoup4
+```
 
 Please note that web scraping requires compliance with the website's terms of service and may be subject to rate limits or IP restrictions. Always review and respect the website's policies and robots.txt file before performing web scraping. Additionally, web scraping may break if the website's HTML structure changes, so you may need to update the parsing logic accordingly.
