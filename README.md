@@ -24,7 +24,7 @@ To use this code, replace the website_url variable with the actual URL of the we
 
 Make sure you have the required libraries ``` requests``` , ``` bs4```  installed before running the code. You can install them using the following commands:
 
-```bash
+```
 pip install requests
 pip install beautifulsoup4
 ```
