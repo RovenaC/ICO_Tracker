@@ -1,6 +1,6 @@
 # ICO Tracker:
 
-Tracks and provides information on initial coin offerings (ICOs) and token sales.
+Tracks and provides information on initial coin offerings (ICOs) and token sales...
 
 
 In this detailed ICO Tracker code, i have implemented the following features:
