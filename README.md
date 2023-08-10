@@ -7,7 +7,7 @@ In this detailed ICO Tracker code, i have implemented the following features.
 
 __1. Data Retrieval:__
 
-The scrape_icos method fetches ICO information from the specified website using web scraping techniques with the help of the requests and BeautifulSoup libraries. It populates the self.icos list with the extracted ICO data.
+ - The ```scrape_icos``` method fetches ICO information from the specified website using web scraping techniques with the help of the ```requests``` and ```BeautifulSoup``` libraries. It populates the self.icos list with the extracted ICO data.
 
 __2. Data Parsing:__
 
