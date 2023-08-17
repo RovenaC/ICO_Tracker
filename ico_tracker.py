@@ -11,7 +11,7 @@ class ICOTracker:
         response = requests.get(self.website_url)
         if response.status_code == 200:
             soup = BeautifulSoup(response.content, 'html.parser')
-            # Implement web scraping to extract relevant ICO data and populate self.icos list
+            # Implement web scraping to extract relevant ICO data and populate self.icos list:
             # Example: self.icos = self.parse_icos_from_website(soup)
         else:
             print("Error fetching ICO data from the website.")
